@@ -10,7 +10,7 @@ export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [showStep4, setShowStep4] = useState(false)
   const [showStep5, setShowStep5] = useState(false)
-  const [userCards, setUserCards] = useState<Array<{ id: number; username: string; value: number }>>([])]
+  const [userCards, setUserCards] = useState<Array<{ id: number; username: string; value: number }>>([])
   
   // Estados para Etapa 6
   const [isAnalyzing, setIsAnalyzing] = useState(false)
